@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Crafty+Girls');
+
+body{
+	font-size:20px;
+	font-family: 'Crafty Girls', cursive;
+	background: #ccff99;
+	text-align: center;
+}
+
+/*pie de página: margen superior, borde, margenes internos, color de fondo, tamaño fuente, grosor fuente, color texto*/
+footer{
+	margin-top:20px;
+	border:1px solid;
+	padding: 4px;
+	background-color: grey;
+	font-size:14px;
+	font-weight:bold;
+	color:black;
+}
+
+#wrapper{
+	width: 500px;
+	height: 450px;
+	margin:auto;
+}
+
+p{
+	text-align:left;
+}
+
+#opponent{
+	float: right;
+}
+
+table{
+	margin:auto;
+}
+
+#tablero{
+	border-spacing: 0px 0px;
+	margin-top:20px;
+}
+
+.casilla{
+	font-weight:bold;
+	font-size:60px;
+	width: 80px;
+	height: 80px;
+	border: 2px black solid;
+}
+
+#c0{
+	border-top: none;
+	border-left: none;
+}
+
+#c1{
+	border-top: none;
+}
+
+#c2{
+	border-top: none;
+	border-right: none;
+}
+
+#c3{
+	border-left: none;
+}
+
+#c5{
+	border-right: none;
+}
+#c6{
+	border-left: none;
+	border-bottom:none;
+}
+
+#c7{
+	border-bottom:none;
+}
+
+#c8{
+	border-bottom: none;
+	border-right: none;
+}
+
+caption{
+	font-size:25px;
+	color: grey;
+}
+
+#scores {
+	margin-top:30px;
+	border: white 2px solid;
+	background: rgba(255, 255, 255, 0.3);
+	border-spacing: 10px 5px;
+	border-radius: 10px;
+	box-shadow: 3px 5px 5px rgba(66,66,66,0.6);
+}
+
+button {
+	font-size: 15px;	
+	border: darkgrey 5px outset;
+	border-radius: 10px;
+	padding: 5px;
+	background: lightgrey;
+	box-shadow: 3px 3px 3px rgba(66,66,66,0.6);
+	text-shadow: 2px 2px white;
+	font-weight: bold;
+	text-align:center;
+}
+
+button:hover {
+	text-shadow: 2px 2px black;
+	color: white;
+}
+
+button:onclick {
+	text-shadow: 2px 2px black;
+	border: darkgrey 5px outset;
+	color: white;
+}
+

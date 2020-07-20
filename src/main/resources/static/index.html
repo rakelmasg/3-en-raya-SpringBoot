@@ -1,0 +1,44 @@
+<!-- 
+	Fecha creación: 18/02/2017 
+	Autores: Raquel Mas y Carolina Damián
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;" charset="UTF-8" />
+	<title>Tres en raya</title>		
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script src="js/game.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css" media="screen" />
+</head>
+<body>
+ 	<h1>TRES EN RAYA</h1>
+	<div id="wrapper">
+		<p><span id="username"></span><span id="opponent"></span></p>
+		<div id="zonaAcceso">
+			<p>Partida: <input type="text" id="partida" placeholder="Partida1"/></p>
+			<button id="crear-btn">Nueva Partida</button>
+			<button id="unirse-btn">Unirse</button>
+			<button onclick="window.open('highscoresHTML.html')">High Scores</button>
+		</div>
+		<div id="zonaJuego" style="display:none">
+			<p id="gamename"></p>
+			<table id="tablero">
+				<tr>
+				<td class="casilla" id="c0"></td><td class="casilla" id="c1"></td><td class="casilla" id="c2"></td>
+				</tr>
+				<tr>
+				<td class="casilla" id="c3"></td><td class="casilla" id="c4"></td><td class="casilla" id="c5"></td>
+				</tr>
+				<tr>
+				<td class="casilla" id="c6"></td><td class="casilla" id="c7"></td><td class="casilla" id="c8"></td>
+				</tr>
+			</table>
+			<br>
+			<span id="turno"></span>
+		</div>
+	</div>
+	<footer>&#169; 2017 Raquel Mas & Crolina Dami&aacute;n</footer>
+	
+</body>
+</html>
